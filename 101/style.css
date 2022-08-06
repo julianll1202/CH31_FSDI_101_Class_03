@@ -1,0 +1,125 @@
+/*Link that lets me use some fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #F1FAEE;
+    padding-left: 1rem;
+    overflow-x: hidden;
+}
+.main-div{
+    display: flex;
+}
+/*header*/
+.site-header{
+    width: 50rem;
+    padding: 1rem;
+    height: 100rem;
+    background-color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site-header h1{
+    color:white;
+    font-size: 2rem;
+}
+.site-header .title{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.site-header .location{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+}
+.site-header .location i{
+    margin-right: 8px;
+}
+.site-header img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #457B9D;
+}
+/*
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    background-color: #FEFAE0;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-left: 20px solid #E9EDC9;
+}
+*/
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+main{
+    height: 100vh;
+}
+main p{
+    color: black;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+/*Animations*/
+.site-header .location:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container:hover{
+    background-color: #CCD5AE;
+}
+ul li:hover{
+    background-color: #FAEDCD;
+    border-left: none;
+    border-right: 20px solid #CCD5AE;
+}
+
+/*Menu*/
+nav.menu{
+    width: 100%;
+}
+nav.menu a{
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #457B9D;
+    color: white;
+    border-radius: 5rem;
+    margin: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
